@@ -2,9 +2,9 @@ import re
 
 def display_hash(hashtable) -> None:
 	for i in range(len(hashtable)):
-		print(i,"-->",end=" ")
+		print(i,end=" ")
 		for j in range(len(hashtable[i])):
-			print(hashtable[i][j], end= " ")
+			print("-->",hashtable[i][j], end= " ")
 	
 
 def Hashing(keyvalue) -> int:
